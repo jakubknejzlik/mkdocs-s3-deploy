@@ -1,4 +1,4 @@
-mkdocs build
+mkdocs build -d /docs/site
 
 cd /docs/site
 
