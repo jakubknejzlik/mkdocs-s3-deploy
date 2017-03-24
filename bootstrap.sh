@@ -2,4 +2,4 @@ cd /docs/site
 
 mkdocs build
 
-aws s3 sync . s3://$BUCKET_NAME
+aws s3 sync /docs/site s3://$BUCKET_NAME
