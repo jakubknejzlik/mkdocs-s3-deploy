@@ -10,3 +10,5 @@ VOLUME /docs
 
 COPY ./bootstrap.sh /bootstrap.sh
 RUN chmod +x /bootstrap.sh
+
+ENTRYPOINT []
