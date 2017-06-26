@@ -1,5 +1,5 @@
-mkdocs build -d docs/site
+mkdocs build -d /docs/site
 
-cd docs/site
+cd /docs/site
 
-aws s3 sync docs/site s3://$BUCKET_NAME
+aws s3 sync /docs/site s3://$BUCKET_NAME
